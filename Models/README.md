@@ -10,4 +10,6 @@ There are two models :
 
 You can also find our notebook : 
 
-- scriptePremodel is the notebook used for the vgg version.
+- scriptPremodel is the notebook used for the vgg version.
+- NotebookOurModel is the notebook used for the other model, with less accuracy.
+- You can also see example1 and example2 to see the result of different visualisation tool used in this internship.

@@ -4,11 +4,11 @@ This repo contains 3 distinct parts of the acomplished work. The models, the app
 
 ## The models
 
-The first one, models contains our models to recognize famous places from Vietnam. It has been trained on 15 classes and about 1500 images. The accuracy using VGG-19 is 94% and 85% when using our own model. 
+The first one, models contains our models to recognize famous places from Vietnam. They have been trained on 15 classes and about 1500 images. The accuracy using VGG-19 is 93% and 85% when using our own model, inspired by AlexNet. 
 
 ## The API
 
-The API is used in the application to know in real time what location you are in front of, and to get informations about it. Normally, it should be running all the time on a server, but since we don't have one it must be manually launch. That creates another issue, althought the predictions are correct, the interpretation of the app of the class number can be wrong as the numbers can be randomised at the first launch of the API. Normally this must only be calibrated once at the first start of the API by changing the id of the classes in the application constants desc.
+The API is used in the application to know in real time what location you are in front of, and to get informations about it. Normally, it should be running all the time on a server, but since we don't have one it must be manually launch. That creates another issue, althought the predictions are correct, the interpretation of the app of the class number can be wrong as the numbers can be randomised at the first launch of the API. Normally this must only be calibrated once at the first start of the API by changing the id of the classes in the application constants desc. To use the API, you must have flask.
 
 ## The Application
 
